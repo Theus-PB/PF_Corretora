@@ -1,0 +1,215 @@
+
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111213;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo img {
+    width: 300px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #c5a572;
+}
+
+/* Apresentação da corretora */
+#apresentacao {
+    padding: 50px 8%;
+}
+
+#apresentacao > h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Organização do texto e da imagem */
+.perfil {
+    display: flex;
+    align-items: stretch;
+    max-width: 1250px;
+    margin: auto;
+    background-color: #1e2022;
+    border: 1px solid #333;
+}
+
+/* Texto da apresentação */
+.texto-perfil {
+    width: 65%;
+    padding: 40px;
+    text-align: left;
+}
+
+.texto-perfil h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.texto-perfil h3 {
+    color: #c5a572;
+    font-family: Georgia, serif;
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.texto-perfil p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #e0e0e0;
+}
+
+.texto-perfil strong {
+    color: white;
+}
+
+.texto-perfil abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+
+/* Lista de diferenciais */
+.texto-perfil ul {
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.texto-perfil li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.texto-perfil li::marker {
+    color: #c5a572;
+}
+
+/* Imagem da corretora */
+.foto-perfil {
+    width: 35%;
+    margin: 0;
+}
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* Indicadores */
+#indicadores {
+    background-color: #111213;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 55px 5%;
+}
+
+.indicador {
+    width: 33%;
+}
+
+.indicador h2 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    color: white;
+    margin: 0 0 15px;
+}
+
+.indicador p {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: white;
+    margin: 0;
+}
+
+/* Vídeos de clientes */
+#depoimentos {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+#depoimentos h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.videos video {
+    width: 20%;
+    height: 500px;
+    object-fit: cover;
+    background-color: #1e2022;
+}
+
+/* Rodapé */
+footer {
+    background-color: #080808;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 8px;
+    font-size: 14px;
+}
