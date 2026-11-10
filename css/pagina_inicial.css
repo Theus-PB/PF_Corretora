@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+h1,
+h2,
+h3 {
+    color: #171717;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #000000;
+    padding: 15px 5%;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #c5ad87;
+}
+
+
+/* Apresentação */
+
+/* ver o id da seção e centraliza os textos */
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centraliza as tags horizontalmente */
+    text-align: center;
+    /* função que centraliza */
+    padding: 110px 20px;
+    /* Margem */
+    background-color: #111111;
+    color: #ffffff;
+}
+
+/* O article dentro da section, centraliza também */
+#inicio article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 650px;
+}
+
+#inicio h1 {
+    color: #ffffff;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    color: #cccccc;
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    /* Espaçamento entre as linhas */
+}
+
+#inicio a {
+    display: inline-block;
+    /* Faz o link ser um botão */
+    background-color: #c5ad87;
+    color: #111111;
+    text-decoration: none;
+    /* tira o sublinhado do link */
+    padding: 14px 28px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#inicio a:hover {
+    background-color: #ffffff;
+}
+
+
+/* Pesquisa */
+
+#pesquisa {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#pesquisa h2 {
+    margin-bottom: 30px;
+}
+
+#pesquisa label {
+    font-weight: bold;
+    margin: 10px;
+}
+
+#pesquisa select {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: 8px;
+}
+
+#pesquisa button {
+    padding: 12px 25px;
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#pesquisa button:hover {
+    background-color: #c5ad87;
+    color: #111111;
+}
+
+
+/* destaques */
+
+#destaques {
+    text-align: center;
+}
+
+#destaques h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.imovel-card {
+    display: inline-block;
+    width: 28%;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.imovel-card figure {
+    margin: 0;
+}
+
+.imovel-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    background-color: #eeeeee;
+}
+
+.imovel-card figcaption {
+    color: #777777;
+    font-size: 12px;
+
+}
+
+.imovel-card h3 {
+    font-size: 18px;
+}
+
+.imovel-card p {
+    color: #666666;
+    font-size: 14px;
+}
+
+.imovel-card a {
+    display: inline-block;
+    background-color: #111111;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 3px;
+}
+
+.imovel-card a:hover {
+    background-color: #c5ad87;
+    color: #111111;
+}
+
+#destaques>a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #8b7049;
+    font-weight: bold;
+}
+
+/* Sobre mim */
+
+
+/* Sobre mim */
+
+#sobre {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    min-height: 500px;
+}
+
+.biografia {
+    width: 60%;
+    padding: 40px 50px;
+    text-align: left;
+}
+
+#sobre h2 {
+    font-size: 28px;
+}
+
+#sobre h3 {
+    font-size: 21px;
+}
+
+#sobre p {
+    color: #555555;
+    line-height: 1.7;
+}
+
+#sobre img {
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.botao-sobre {
+    display: inline-block;
+    background-color: #111111;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.botao-sobre:hover {
+    background-color: #c5ad87;
+    color: #111111;
+}
+
+
+
+/* contato */
+
+#contato {
+    text-align: center;
+}
+
+#contato p {
+    color: #666666;
+}
+
+#contato address {
+    font-style: normal;
+    line-height: 1.8;
+    margin: 20px;
+}
+
+#contato a {
+    display: inline-block;
+    background-color: #111111;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 4px;
+}
+
+#contato a:hover {
+    background-color: #c5ad87;
+    color: #111111;
+}
+
+
+/* ========================================
+   INFORMAÇÕES COMPLEMENTARES
+======================================== */
+
+aside {
+    background-color: #f5f5f5;
+    padding: 25px 8%;
+}
+
+details {
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    color: #333333;
+}
+
+
+/* ========================================
+   RODAPÉ
+======================================== */
+
+footer {
+    background-color: #080808;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #cccccc;
+}
