@@ -51,7 +51,7 @@ Projeto/
 ├── img/
 │   └── Imagens utilizadas no site
 │
-├── video/
+├── mp4/
 │
 └── README.md
 ```
