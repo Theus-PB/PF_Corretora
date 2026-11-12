@@ -66,21 +66,16 @@ nav a:hover {
 
 /* Apresentação */
 
-/* ver o id da seção e centraliza os textos */
 #inicio {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centraliza as tags horizontalmente */
     text-align: center;
-    /* função que centraliza */
     padding: 110px 20px;
-    /* Margem */
     background-color: #111111;
     color: #ffffff;
 }
 
-/* O article dentro da section, centraliza também */
 #inicio article {
     display: flex;
     flex-direction: column;
@@ -104,11 +99,9 @@ nav a:hover {
 
 #inicio a {
     display: inline-block;
-    /* Faz o link ser um botão */
     background-color: #c5ad87;
     color: #111111;
     text-decoration: none;
-    /* tira o sublinhado do link */
     padding: 14px 28px;
     border-radius: 4px;
     font-weight: bold;
@@ -257,7 +250,7 @@ nav a:hover {
 }
 
 #sobre img {
-    width: 350;
+    width: auto;
     height: 700px;
     object-fit: cover;
     border-radius: 0;
