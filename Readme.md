@@ -24,7 +24,6 @@ A plataforma reúne informações sobre a corretora, empreendimentos disponívei
 
 - **HTML5:** estruturação e organização do conteúdo das páginas.
 - **CSS3:** estilização, identidade visual, organização dos elementos e formatação das páginas.
-- **JavaScript:** utilizado em funcionalidades pontuais de navegação, quando aplicado.
 
 ## Estrutura do projeto
 
@@ -51,8 +50,6 @@ Projeto/
 │
 ├── img/
 │   └── Imagens utilizadas no site
-│
-├── audio/
 │
 ├── video/
 │
